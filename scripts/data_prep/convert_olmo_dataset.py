@@ -114,6 +114,12 @@ dolmaconstants.splits["train"] = DataSplitConstants(
     raw_samples=1_000_000_000,
     truncated_samples=1_000_000_000,
 )
+dolmaconstants.splits["train_medium"] = DataSplitConstants(
+    hf_split="train",
+    folder_split="train_medium",
+    raw_samples=40_960_000,
+    truncated_samples=40_960_000,
+)
 dolmaconstants.splits["train_small"] = DataSplitConstants(
     hf_split="train",
     folder_split="train_small",
