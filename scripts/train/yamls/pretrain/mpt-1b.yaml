@@ -108,8 +108,12 @@ callbacks:
   memory_monitor: {}
   runtime_estimator: {}
 
-# loggers:
-#   wandb: {}
+loggers:
+  wandb:
+    project: olmo-small
+    group: llm-foundry-test
+    name: llm-foundry-test-1B
+    entity: ai2-llm
 
 # Checkpoint to local filesystem or remote object store
 # save_interval: 2000ba
