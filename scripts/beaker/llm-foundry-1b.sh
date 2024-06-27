@@ -30,6 +30,7 @@ composer \
   --master_port 29400 \
   scripts/train/train.py \
     scripts/train/yamls/pretrain/mpt-1b.yaml \
+    variables.run_name=mpt-1b \
     variables.data_local=/weka/oe-training-default/shanea/mds_data/dolma \
     train_loader.dataset.split=train \
     eval_loader=null \
