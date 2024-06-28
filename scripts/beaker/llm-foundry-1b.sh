@@ -37,4 +37,4 @@ composer \
     eval_interval=0 \
     train_loader.dataset.shuffle=False \
     save_folder=/weka/oe-training-default/shanea/checkpoints/mpt-1b \
-    save_overwrite=True
+    autoresume=True
