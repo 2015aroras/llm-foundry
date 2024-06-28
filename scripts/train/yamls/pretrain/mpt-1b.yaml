@@ -111,8 +111,8 @@ callbacks:
 loggers:
   wandb:
     project: olmo-small
-    group: llm-foundry-test
-    name: llm-foundry-test-1B
+    group: llm-foundry
+    name: llm-foundry-1B
     entity: ai2-llm
 
 # Checkpoint to local filesystem or remote object store
